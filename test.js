@@ -6,6 +6,8 @@ const server = require('./server')
 
 const urlBase = `http://localhost:${PORT}`
 
+console.log("");
+
 tape('should respond hello', (t) => {
   jsonist.get(urlBase, (err, body) => {
     if (err) t.error(err)
