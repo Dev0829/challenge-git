@@ -15,6 +15,8 @@ tape('should respond hello', (t) => {
   })
 })
 
+console.log("feat: add base64 endpoint");
+
 tape('cleanup', function (t) {
   server.close()
   t.end()
